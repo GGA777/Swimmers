@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:text="Прозвище – «Русская ракета». Четырехкратный олимпийский чемпион, шестикратный чемпион мира, 21-кратный чемпион Европы.&#xA;&#xA;Серия великих побед нашего великого соотечественника начинается в 1991 году на чемпионате Европы в Афинах – на нем пловец завоевал 4 золотые медали. В 1993 году Александр получил еще 2 золота на чемпионате Европы. Через год пловец побил мировой рекорд на римском чемпионате мира. На следующий год чемпион добавил в свою коллекцию 4 награды: две личные и две командные.&#xA;&#xA;Прославился пловец на Олимпиаде 1996 года, на которой он снова забрал 2 золота, оставив сильнейших соперников позади. В этом же году Александра тяжело ранили в уличной стычке, но это не сломило его. После реабилитации, на соревнованиях в Севилье он удивил всех, дважды став чемпионом Европы!&#xA;&#xA;В 1998 году Александр Попов в третий раз завоевал золотые медали. Пловец получил кубок выдающегося пловца за последнее десятилетие от МФП (Международной федерации плавания). Через 2 года пловец побил мировой рекорд на дистанции 50 метров вольным стилем. Спустя 5 лет Александр решил завершить спортивную карьеру."
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintStart_toStartOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:text="  Александр Попов (Свердловск–45, Россия)"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/five" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="#151313"
+        android:text="Ян Торп"
+        app:icon="@android:drawable/ic_menu_send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="#101010"
+        android:text="Назад"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

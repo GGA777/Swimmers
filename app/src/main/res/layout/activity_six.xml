@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F4F1F1"
+        android:fontFamily="sans-serif-medium"
+        android:text="150-кратный чемпион Венгрии, 32-кратный чемпион Европы, трёхкратный чемпион Универсиады 2011 года.&#xA;&#xA;Первую свою награду пловец получил в 2003 году на чемпионате мира – серебро на 400-метровой дистанции комплексным плаванием. Период с 2003 г. до 2015 г. оказался для Чеха очень удачным – он ни разу не уезжал с соревнований без наград! На 50 метровых дистанциях Ласло забирал как минимум по две медали и одному золоту на семи чемпионатах Европы подряд. Несколько раз Чех соревновался с Майклом Фелпсом, но проигрывал ему и уезжал с серебром.&#xA;&#xA;Интересные факты о спортсмене&#xA;&#xA;    Перед каждым соревнованием Ласло Чех бреется налысо, что стало его фирменной чертой.&#xA;    В 2015 году был признан лучшим пловцом Европы по версии LEN (Европейская лига плавания).&#xA;"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#F3EAEA"
+        android:fontFamily="sans-serif-black"
+        android:text="Ласло Чех (Будапешт, Венгрия)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="420dp"
+        android:layout_height="268dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/third" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="47dp"
+        android:backgroundTint="#171616"
+        android:text="Александр Попов"
+        app:icon="@android:drawable/ic_menu_send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="46dp"
+        android:backgroundTint="#121111"
+        android:text="Назад"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
